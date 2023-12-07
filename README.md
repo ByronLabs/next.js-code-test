@@ -13,17 +13,13 @@ You are tasked with creating a simple web application using Next.js that interac
      - Incident ID (auto-generated)
      - Date and Time of Incident
      - Description
-     - Severity Level (Low, Medium, High)
-     - Reporter (Name and Contact Information)
-     - Status (Open, In Progress, Closed)
 
 2. **Backend FastAPI Server:**
-   - Use FastAPI to implement the backend API with the previously defined endpoints for reporting incidents and listing all incidents.
+   - Use FastAPI, check the [Python code test](https://github.com/ByronLabs/python-code-test), to implement the backend API with the previously defined endpoints for reporting incidents and listing all incidents.
 
 3. **Frontend Next.js App:**
    - Create a Next.js application that interacts with the FastAPI backend.
-   - Implement a form for organizations to report new incidents with input fields for Date and Time, Description, Severity Level, and Reporter details.
-   - Display a list of reported incidents on the main page, showing Incident ID, Date and Time, Description, Severity Level, and Status.
+   - Implement a form for organizations to report new incidents with input fields for Date and Time and Description.
 
 4. **Integration:**
    - Ensure that the Next.js frontend interacts seamlessly with the FastAPI backend. Use appropriate API calls to report incidents and retrieve the list of incidents.
